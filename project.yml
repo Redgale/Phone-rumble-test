@@ -12,7 +12,8 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.redgale.RumbleTest
-        PRODUCT_NAME: Rumble Test
+        PRODUCT_NAME: RumbleTest
+        GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_CFBundleDisplayName: Rumble Test
         INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
