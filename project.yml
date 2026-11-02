@@ -1,0 +1,21 @@
+name: RumbleTest
+options:
+  bundleIdPrefix: com.redgale
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  RumbleTest:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.redgale.RumbleTest
+        PRODUCT_NAME: Rumble Test
+        INFOPLIST_KEY_CFBundleDisplayName: Rumble Test
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_MACCATALYST: NO
